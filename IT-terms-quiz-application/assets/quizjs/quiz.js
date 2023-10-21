@@ -419,4 +419,14 @@ continue_btn.onclick = () => {
     startTimer(15); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 };
+// setting initials for the restart button
+let timeValue = 15;
+let que_count = 0;
+let que_numb = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
 
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
