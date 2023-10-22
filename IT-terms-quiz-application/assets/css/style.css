@@ -135,3 +135,16 @@ body {
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+
+/* Responsive styles for quiz box */
+.quiz_box {
+    max-width: 90%;
+    /* Adjust the maximum width as needed */
+    background: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
