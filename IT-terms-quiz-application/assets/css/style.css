@@ -420,3 +420,64 @@ footer button.show {
     background: #007bff;
 }
 
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+
+    /* Add responsive styles here */
+    .start_btn button {
+        font-size: 20px;
+        padding: 12px 24px;
+    }
+
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%;
+    }
+
+    section .que_text {
+        font-size: 20px;
+    }
+
+    section .option_list .option {
+        font-size: 16px;
+    }
+
+    section .option_list .option .icon {
+        height: 22px;
+        width: 22px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    footer .total_que span p {
+        font-size: 16px;
+    }
+
+    footer button {
+        height: 35px;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 8px;
+    }
+
+    .result_box .icon {
+        font-size: 80px;
+    }
+
+    .result_box .complete_text {
+        font-size: 18px;
+    }
+
+    .result_box .score_text span {
+        font-size: 16px;
+    }
+
+    .result_box .buttons button {
+        margin: 0 8px;
+        height: 40px;
+        padding: 0 18px;
+        font-size: 16px;
+    }
+}
+
