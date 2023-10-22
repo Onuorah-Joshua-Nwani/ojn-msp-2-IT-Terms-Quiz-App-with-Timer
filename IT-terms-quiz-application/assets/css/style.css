@@ -381,3 +381,42 @@ footer button.show {
     font-weight: 600;
 }
 
+/* Styles for buttons inside result box */
+.result_box .buttons {
+    display: flex;
+    margin: 20px 0;
+}
+
+.result_box .buttons button {
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart {
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button.restart:hover {
+    background: #0263ca;
+}
+
+.buttons button.quit {
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.quit:hover {
+    color: #fff;
+    background: #007bff;
+}
+
