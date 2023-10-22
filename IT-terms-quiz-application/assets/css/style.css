@@ -84,3 +84,31 @@ body {
     pointer-events: none;
     transition: all 0.3s ease;
 }
+
+/* Styles for .info-title and .info-list inside info box */
+.info_box .info-title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info_box .info-list {
+    padding: 15px 30px;
+}
+
+.info_box .info-list .info {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info_box .info-list .info span {
+    font-weight: 600;
+    color: #007bff;
+}
+
