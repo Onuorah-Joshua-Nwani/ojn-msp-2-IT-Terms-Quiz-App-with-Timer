@@ -341,3 +341,43 @@ footer button.show {
     transform: scale(1);
 }
 
+/* Styles for result box */
+.result_box {
+    max-width: 90%;
+    /* Adjust the maximum width as needed */
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    padding: 25px 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.result_box .icon {
+    font-size: 100px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.result_box .complete_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.result_box .score_text span {
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.result_box .score_text span p {
+    padding: 0 4px;
+    font-weight: 600;
+}
+
