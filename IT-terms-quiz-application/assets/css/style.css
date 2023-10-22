@@ -16,3 +16,25 @@ body {
     color: #fff;
     background: #007bff;
 }
+
+/* Center and style the introduction text */
+.intro_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.intro_box h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 250px;
+    margin-top: 100px;
+}
+.intro_box p {
+    font-size: 18px;
+    color: rgb(244, 238, 238);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
