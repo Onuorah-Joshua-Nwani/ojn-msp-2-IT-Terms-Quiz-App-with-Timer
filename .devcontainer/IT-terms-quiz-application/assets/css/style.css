@@ -24,20 +24,34 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    /* Center-align text */
     color: #fff;
 }
+
 .intro_box h1 {
     font-size: 30px;
+    /* Increase font size */
     color: white;
+    /* Change text color to white */
     margin-bottom: 250px;
+    /* Add some spacing below the heading */
     margin-top: 100px;
+    /* Move the h1 element 60px above the Start button */
 }
+
 .intro_box p {
     font-size: 18px;
+    /* Increase font size */
     color: rgb(244, 238, 238);
+    /* Change text color to white */
     margin-top: 10px;
+    /* Add some spacing above the paragraph */
     margin-bottom: 10px;
-}/* Responsive styles for start button */
+    /* Move the p element 60px below the Start button */
+
+}
+
+/* Responsive styles for start button */
 .start_btn button {
     font-size: 25px;
     font-weight: 500;
@@ -50,7 +64,7 @@ body {
     cursor: pointer;
 }
 
-/* General styles for .start_btn, .info_box, .quiz_box, .result_box */
+/* Common styles for .start_btn, .info_box, .quiz_box, .result_box */
 .start_btn,
 .info_box,
 .quiz_box,
@@ -480,4 +494,3 @@ footer button.show {
         font-size: 16px;
     }
 }
-

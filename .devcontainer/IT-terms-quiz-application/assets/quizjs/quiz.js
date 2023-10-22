@@ -387,7 +387,6 @@ let questions = [
         ]
     }
 ];
-
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
@@ -400,7 +399,7 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-// if startQuiz button is clicked
+// if startQuiz button clicked
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); //show info box
 };
@@ -419,7 +418,7 @@ continue_btn.onclick = () => {
     startTimer(15); //calling startTimer function
     startTimerLine(0); //calling startTimerLine function
 };
-// setting initials for the restart button
+
 let timeValue = 15;
 let que_count = 0;
 let que_numb = 1;
@@ -498,7 +497,6 @@ function showQuetions(index) {
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
-
 // creating the new div tags for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
